@@ -1,0 +1,108 @@
+@media (max-width: 900px) {
+    h1,h2,h3 {
+        font-size: 20px !important;
+    }
+    h4 {
+        font-size: 16px !important;
+    }
+    h5, h6{
+        font-size: 15px !important;
+    }
+    p , a , li , button {
+        font-size: 11px !important;
+    }
+    .hamburger{
+        display: block !important;
+    }
+   
+    .navbar-nav{
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 80px;
+        background-color: #fff;
+        flex-direction: column !important;
+        justify-content: unset !important;
+        align-items: center;
+        transition: all .5s linear;
+    }
+    .navbar-nav li {
+        margin: 20px 0px !important;
+    }
+   .navbar-nav{ 
+        right: -100%;
+    }
+   .acitve-nav{
+        right: 0px;
+    }
+    /* html[dir='ltr']  .navbar-nav{
+        left: -100%;
+    }
+    html[dir='ltr'] .acitve-nav{
+        left: 0px;
+    } */
+    .partner .nav
+    {
+        display: flex;
+        flex-direction: row !important;
+        justify-content: flex-start !important;
+        flex-wrap: nowrap;
+        margin-left: -5px;
+        margin-right: -5px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        padding-bottom: 15px;
+        margin: 0px 10px;
+    }
+    .partner .nav::-webkit-scrollbar-thumb {
+        background-color: transparent;
+        border-radius: 0px;
+    }
+    .partner .nav::-webkit-scrollbar {
+        width: 0px;
+        background-color: transparent;
+    } 
+    .partner .nav .nav-item
+    {
+        width: max-content !important;
+        margin: 0px 10px;
+        text-align: center;
+    }
+    
+    header .item.truck::before , header .item.truck::after ,header .owl-item .item.plane::before, header .owl-item .item.plane::after
+    {
+        display: none;
+    }
+    
+    header::After{
+        height: 50%;
+    }
+    header .owl-theme .owl-nav{
+        top: 90%;
+    }
+    header .item , header{
+        padding-bottom: 30px;
+    }
+    .about-us .content{
+        padding: 0px !important;
+    }
+    .about-us .data-content .image-content .big-img {
+        width: 100%;
+        height: 500px;
+        -o-object-fit: cover;
+           object-fit: cover;
+        -o-object-position: left;
+           object-position:left;
+        
+      }
+
+    footer .content h4{
+        margin: 10px 0px !important;
+    }
+    footer .content.center-content{
+        align-items: flex-start !important;
+    }
+    .me{margin-right: 17px;
+
+    }
+}
