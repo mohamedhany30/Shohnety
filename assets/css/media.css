@@ -35,6 +35,10 @@
    .acitve-nav{
         right: 0px;
     }
+    .navbar .brand-name{
+        max-width: 500px;
+        text-align: center;
+    }
     /* html[dir='ltr']  .navbar-nav{
         left: -100%;
     }
